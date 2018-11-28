@@ -195,7 +195,15 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     link(rel="stylesheet", href="style.css")
     title '$NEW_PROJECT'
-  body' > index.pug
+  body
+
+    header.header
+
+      nav.nav
+      
+    main.main
+    
+    footer.footer' > index.pug
 
 function mkdirAndTouch() {
     mkdir $1
